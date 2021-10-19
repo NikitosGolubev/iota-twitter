@@ -1,0 +1,25 @@
+{
+  "extends": [
+    "plugin:react/recommended",
+    "./.eslintrc.base.json"
+  ],
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
+  "env": {
+    "browser": true
+  },
+  "plugins": [
+    "react-hooks"
+  ],
+  "rules": {
+    "react/react-in-jsx-scope": "off",
+    "react-hooks/rules-of-hooks": "error",
+    "react-hooks/exhaustive-deps": "error",
+    "react/prop-types": "off",
+    "react/display-name": "off",
+    "comma-dangle": "off"
+  }
+}

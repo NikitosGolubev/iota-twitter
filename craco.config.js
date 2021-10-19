@@ -16,6 +16,7 @@ module.exports = {
       '@logic': resolvePath('./src/logic'),
       '@abis': resolvePath('./src/abis'),
       '@api': resolvePath('./src/api'),
+      '@hooks': resolvePath('./src/hooks'),
     },
   },
 }

@@ -12,9 +12,7 @@
     "typescriptreact"
   ],
   "cSpell.words": [
-    "arcx",
     "postbuild",
-    "wsrun"
   ],
   "eslint.format.enable": true,
   "editor.defaultFormatter": "dbaeumer.vscode-eslint",

@@ -12,6 +12,7 @@
       "@logic/*": ["src/logic/*"],
       "@abis/*": ["src/abis/*"],
       "@api/*": ["src/api/*"],
+      "@hooks/*": ["src/hooks/*"],
     },
     "target": "es5",
     "lib": [

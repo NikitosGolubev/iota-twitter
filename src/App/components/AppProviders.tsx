@@ -1,8 +1,12 @@
-import { DebugModeProvider } from '@hooks/index';
+import { AppThemeProvider, DebugModeProvider } from '@hooks/index';
 import { FC } from 'react';
 
 const AppProviders: FC = ({ children }) => {
-  return <DebugModeProvider>{children}</DebugModeProvider>;
+  return (
+    <AppThemeProvider>
+      <DebugModeProvider>{children}</DebugModeProvider>
+    </AppThemeProvider>
+  );
 };
 
 export default AppProviders;
